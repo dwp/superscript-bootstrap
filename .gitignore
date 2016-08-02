@@ -1,5 +1,6 @@
 .DS_Store
 .idea
+botfacts
+logs
 node_modules
 systemDB
-logs/*
