@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "parse": "./node_modules/superscript/bin/parse.js",
-    "cleanup": "./node_modules/superscript/bin/cleanup.js"
+    "cleanup": "./node_modules/superscript/bin/cleanup.js --mongo superscriptDB",
+    "parse": "./node_modules/superscript/bin/parse.js -f",
+    "watch-ss": "nodemon -e ss ./node_modules/superscript/bin/cleanup.js --mongo superscriptDB"
   },
   "dependencies": {
     "superscript": "latest",
