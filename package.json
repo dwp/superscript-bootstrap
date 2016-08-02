@@ -2,6 +2,10 @@
   "name": "superscript-bootstrap",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "parse": "./node_modules/superscript/bin/parse.js",
+    "cleanup": "./node_modules/superscript/bin/cleanup.js"
+  },
   "dependencies": {
     "superscript": "latest",
     "sfacts": "latest",
