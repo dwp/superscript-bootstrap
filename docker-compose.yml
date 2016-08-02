@@ -1,0 +1,15 @@
+version: '2'
+services:
+  superscript:
+    build: .
+    environment:
+      - SLACK_TOKEN
+      - MONGO_URL=mongodb://mongo/superscriptDB
+    volumes:
+      - .:/opt/superscript
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    volumes:
+     - ./mongo:/data/db

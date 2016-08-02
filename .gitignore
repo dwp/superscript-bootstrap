@@ -3,5 +3,6 @@
 botfacts
 data.json
 logs
+mongo
 node_modules
 systemDB
