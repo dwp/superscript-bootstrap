@@ -1,5 +1,5 @@
 + ~emohello [*~2]
-- Hi!
+- {keep}Hi!
 - Hi, how are you?
 - How are you?
 - Hello
