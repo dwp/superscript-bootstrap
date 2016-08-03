@@ -4,7 +4,7 @@ services:
     build: .
     environment:
       - SLACK_TOKEN
-      - MONGO_URL=mongodb://mongo/superscriptDB
+      - MONGO_URI=mongodb://mongo/superscriptDB
     volumes:
       - ./topics:/opt/superscript/topics
     depends_on:

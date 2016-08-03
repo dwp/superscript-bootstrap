@@ -6,7 +6,7 @@ var token = process.env.SLACK_TOKEN;
 // This is the main Bot interface
 var superscript = require("superscript");
 var mongoose = require("mongoose");
-mongoose.connect(process.env.MONGO_URL);
+mongoose.connect(process.env.MONGO_URI);
 
 // slack-client provides auth and sugar around dealing with the RealTime API.
 var Slack = require("slack-client");

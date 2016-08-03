@@ -5,5 +5,5 @@ RUN mkdir ${BOTDIR}
 WORKDIR ${BOTDIR}
 ADD ./ ${BOTDIR}
 RUN npm install
-CMD ./run-superscript
+CMD ./run-superscript.sh
 

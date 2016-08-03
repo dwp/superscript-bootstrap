@@ -1,5 +1,10 @@
+.DS_Store
+.idea
+botfacts
+data.json
 docker-compose.yml
 Dockerfile
 mongo
 node_modules
+systemDB
 telnet.js
