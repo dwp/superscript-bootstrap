@@ -17,6 +17,8 @@ The framework uses a range of technology under the hood including:
 * [ConceptNet](http://conceptnet5.media.mit.edu/) providing a general purpose database for knowledge extraction.
 * [WordNet](https://wordnet.princeton.edu/) providing a database for word and concept expansion. 
 
+The framework is platform agnostic has been tested on Twillio, IRC, Slack, WebRTC, SocketIO, Telegram and TCP (telnet).
+
 ### Getting started
 
 First off you need to clone this repository (via git) on to your local machine and ensure that you have Docker installed.  You can get the latest version of Docker from the [docker.com](https://www.docker.com/products/docker).
@@ -39,6 +41,6 @@ Once the build is complete you should see the bot come online in Slack, don't fo
 
 ### Customisation
 
-One of the nice components of this framework is that it has a very estensible scripting language - itself named SuperScript.  It is quite different from other chatbot scripts, despite being inspired by [RiveScript](https://www.rivescript.com/) and [Chatscript](http://chatscript.sourceforge.net/).
+One of the nice components of this framework is that it has a very extensible scripting language - itself named SuperScript.  It is quite different from other chatbot scripts, despite being inspired by [RiveScript](https://www.rivescript.com/) and [ChatScript](http://chatscript.sourceforge.net/).
 
 You can find full documentation (where complete) on Github at https://github.com/superscriptjs/superscript/wiki.
