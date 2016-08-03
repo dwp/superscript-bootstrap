@@ -6,7 +6,7 @@ services:
       - SLACK_TOKEN
       - MONGO_URL=mongodb://mongo/superscriptDB
     volumes:
-      - .:/opt/superscript
+      - ./topics:/opt/superscript/topics
     depends_on:
       - mongo
   mongo:
