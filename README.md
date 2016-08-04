@@ -44,3 +44,5 @@ Once the build is complete you should see the bot come online in Slack, don't fo
 One of the nice components of this framework is that it has a very extensible scripting language - itself named SuperScript.  It is quite different from other chatbot scripts, despite being inspired by [RiveScript](https://www.rivescript.com/) and [ChatScript](http://chatscript.sourceforge.net/).
 
 You can find full documentation (where complete) on Github at https://github.com/superscriptjs/superscript/wiki.
+
+Both the `plugins` and `topics` directories are included in the Docker image as volumes from the local file system.  This means that you can edit your files, restart Docker, and the bot will come online with your changes.  You can restart docker using `docker-compose restart` command.
