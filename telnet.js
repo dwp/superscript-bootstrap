@@ -5,7 +5,7 @@ var superscript     = require("superscript");
 var mongoose        = require("mongoose");
 var facts           = require("sfacts");
 var factSystem      = facts.create('telnetFacts');
-mongoose.connect('mongodb://localhost/superscriptDB');
+mongoose.connect(process.env.MONGO_URI);
 
 var options = {};
 var sockets = [];
