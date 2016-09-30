@@ -25,7 +25,12 @@ First off you need to clone this repository (via git) on to your local machine a
 
 ### Preparing your slack credentials
 
-You will first need to create your custom bot integration for slack - please see the [Innovation how-to article here](https://confluence.dwp.gov.uk/display/IN/Create+a+custom+bot+integration+for+Slack) for a guide on how to complete this process.
+You will first need to create your custom bot integration for Slack - this is the simplest and quickest way of adding a Bot to your Slack team. The first thing you will need to do is create a custom integration bot configuration, which you will then use to allow your code to connect to the Slack RTM (Real Time Messaging) API.
+
+1. First, visit the Slack apps index.
+2. Search for bots and select 'Bots - connect a bot to the slack Real Time Messaging API'.
+3. Select 'Add configuration' and give your bot a name.
+4. You should now see the configuration screen for the bot. Take note of the API token and save the configuration.
 
 Once you have completed this and have your API token please copy the .env.dist file to .env in the root of this project and edit the file so that the SLACK_TOKEN value is correct for your bot.
 
