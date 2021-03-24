@@ -10,7 +10,7 @@
   "dependencies": {
     "superscript": "latest",
     "sfacts": "latest",
-    "mongoose": "3.8.24",
+    "mongoose": "5.12.2",
     "debug": "~2.0.0",
     "slack-client": "~1.2.2"
   }
